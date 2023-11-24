@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+<title>My Weather App Project</title>
+  </head>
+  <body>
+    <div class="weather-app"> 
+    <header>
+      <form class="search-form" id="search-form">
+        <input type="search" placeholder="Enter a city..." required class="search-form-input" id="search-form-input" />
+        <input type="submit" value="search" class="search-form-button" />
+      </form>
+    </header>
+    <main>
+      <h1 class="weather-app-city" id="city"></h1>
+      <h2 class="weather-app-date-time"><span id=date-time> </span></h2>
+      <h3 class=weather-app-emoji id="weather-app-emoji"> </h3>
+      <div class="weather-app-data">
+        <p>
+        <div>
+        <strong><span id="temperature">14</span>°C</strong>
+        <br />
+        <span id="description"> </span> </div> 
+        <div class="wind"> <strong><span id="wind-speed"></span></strong>
+        <br />
+        Wind</div>
+        <div class="humidity"><strong id="humidity"></strong> <br />
+         Humidity</div>
+      </p>
+    </div>
+    </main>
+    <footer>
+      Coded by
+      <a href="https://github.com/Haffie023" target="_blank">
+        Joyce Muchoki</a
+      >
+      open-sourced on <a
+        href="https://github.com/Haffie023/Week-7-Plus.git"
+        target="_blank"
+      >Github</a> and hosted on <a href="" target="_blank"> Netlify
+      </a>
+    </footer></div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
