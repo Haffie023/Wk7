@@ -1,5 +1,5 @@
 body {
-    background-color: #230f0f;
+    background: linear-gradient(90.5deg, rgb(247, 204, 0) 0.2%, rgb(247, 0, 0) 27.3%, rgb(161, 0, 156) 85.5%);
     font-family: "Noto Sans", sans-serif;
     font-family: "Poppins", sans-serif;
     color: rgb(136, 0, 255);
